@@ -4,7 +4,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 import numpy as np
 import matplotlib.pyplot as plt
-from keras.datasets import mnist  # библиотека базы выборок Mnist
+from keras.datasets import mnist  # mnist sample base library
 from tensorflow import keras
 from keras.layers import Dense , Flatten , Dropout , Conv2D , MaxPooling2D
 
